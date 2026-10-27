@@ -23,6 +23,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РеализацияТовара.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.РеализацияТовара.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="4cde009d-1743-41b4-8f71-61361579b467">
@@ -40,6 +42,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="f6010c36-df34-46a2-ba25-38649168b2a9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b3894352-7fb8-4c6c-89b0-137c5283b0fa">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="305ec3f9-e0d4-489e-bff3-b96184c373cc">
     <producedTypes>
       <objectType typeId="fcdbbde7-ff58-47e2-9c7e-48f1bd28f3e7" valueTypeId="ad6f2788-7f2a-4283-a350-c52819ada81c"/>
